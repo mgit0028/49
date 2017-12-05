@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
+</head>
+<body>
+
+
+
+<h1 style=color:#888888>双色球随机猜
+版</>
+
+
+<button    style="font-size:35px;color:#FF0000"    onclick="myFunction5()">前区点我选号</button>
+
+​
+<p id="demo5">前区随机开始</p>
+
+<script>
+
+function myFunction5(){
+
+
+	var x="",r;
+
+
+
+ r=Math.random();
+
+
+x=document.getElementById("demo5")
+if (r>0.5){
+	x.innerHTML=Math.random()*33+1;
+}
+else{
+	x.innerHTML=Math.floor(Math.random()*33+1);
+}
+
+}
+
+</script>
+
+​
+</body>
+</html>
+
+
+   
+
+
+
+
+
+
+

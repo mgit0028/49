@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
+</head>
+<body>
+
+<h1  style=color:#888888>大乐透随机猜
+
+版</>
+
+<button    style="font-size:35px;color:#FF0000"    onclick="myFunction2()">后区点我选号</button>
+
+​
+<p id="demo2">后区随机开始</p>
+
+<script>
+
+function myFunction2(){
+
+
+	var x="",r;
+
+
+
+ r=Math.random();
+
+
+x=document.getElementById("demo2")
+if (r>0.5){
+	x.innerHTML=Math.random()*12+1;
+}
+else{
+	x.innerHTML=Math.floor(Math.random()*12+1);
+}
+
+}
+
+</script>
+
+
+
+​
+</body>
+</html>
+
+
+
+

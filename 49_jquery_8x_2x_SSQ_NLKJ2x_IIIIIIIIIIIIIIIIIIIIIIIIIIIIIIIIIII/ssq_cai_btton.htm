@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>菜鸟教程(runoob.com)</title> 
+</head>
+<body>
+
+<h1  style=color:#888888>双色球随机猜。中。没。中。</>
+
+<button    style="font-size:35px;color:#FF0000"    onclick="myFunction5x()">前区点我猜一猜</button>
+
+​
+<p id="demo5x">随机猜猜前区。中。没。中</p>
+<script>
+
+function myFunction5x(){
+
+	var x="",r;
+
+ r=Math.random();
+x=document.getElementById("demo5x")
+if (r>0.5){
+    x.innerHTML="<...中了";
+}
+else{
+    x.innerHTML="<...没中";
+}
+
+}
+
+
+</script>
+
+
+​
+</body>
+</html>
+
+
+   
+
+
+
+
+
+
+
