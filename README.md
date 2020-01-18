@@ -4,5 +4,7 @@ python学习笔记
 
 2020年qpython
 
-python基础教程
-https://github.com/qiwsir/ITArticles/blob/master/BasicPython/index.md
+我的wiki主页
+
+https://github.com/mgit0028/49/wiki/
+
